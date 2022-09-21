@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estiloslogin.css">
+    <link rel="icon" type="image/x-icon" href="Imagenes/usuario.jpg">
+    <script src="JS/inicioSession.js"></script>
+    <title>Inicio de Sesión</title>
+</head>
+<body>
+    <img src="Imagenes/logo.jpg" class="logoUniversidad" id="logoUniversidad">
+    <form>
+        
+        
+        <br>
+        <!--<img src="Imagenes/usuario.jpg" class="imagenLogin" id="imagenLogin">-->
+        <input type="text" id="UsuarioLogin" placeholder="Usuario" class="UsuarioLogin" > 
+        <br>
+        <input type="password" id="Contraseña" placeholder="Contraseña" class="Contraseña">        
+        <input type="checkbox" id="recordarPsw" class="recordarPsw">
+        <img src="Imagenes/view.png" class="imgVerPassword" onmouseover="mostrarPassword();"       
+        onmouseout="ocultarPassword();">
+        <label class="labelRecordarPsw" class="labelRecordarPsw">Recordar contraseña?</label>
+        <button type="submit" id="Acceder"  class="Acceder" > Acceder </button>
+        <br>
+        <br>
+        <a id="Mensaje" class="Mensaje" href="olvidocontraseña.html">¿ Olvido su Contraseña? </a>
+        
+    </form>
+    
+   
+</body>
+</html>

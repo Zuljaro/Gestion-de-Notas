@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/stilosAsignatura.css">
+    <link rel="stylesheet" href="CSS/stilosAsignarAsignatura.css">
     
     <link rel="icon" type="image/x-icon" href="Imagenes/agregar.jpg">
-    <title>Crear asignaturas</title>
+    <title>Asignar asignaturas</title>
 </head>
 <body>
 
@@ -20,18 +20,18 @@
 
         <div id="presentacion">
             <br>
-             <label class="contenidogestionAsignatura">Gestión de Asignaturas</label>
+             <label class="contenidogestionAsignatura">Asignaciones de Asignaturas</label>
         </div>
 
         <div id="presentacion">
             <br>
             <img src="Imagenes/descarga.png" class="imagenDescargas">
-            <button type="submit" class="contenidoDescargarAsignatura">Descargar Asignaturas </button>
+            <button type="submit" class="contenidoDescargarAsignatura">Descargar Asignaciones </button>
         </div>
             
     </div>
 
-    <div id="contenidoIngreso">
+    <div id="contenidoIngreso" class="contenidoIngreso">
         <div id="menuContenido">
 
             <div id="encabezadoContenidoIngreso">
@@ -86,11 +86,11 @@
             <div id="divIncialSeccionDatos">
 
                 <div id="div1InicialSeccionDatos">
-                    <h3 class="h3Asignaturas" >Asignaturas</h3>
+                    <h3 class="h3Asignaturas" >Asignaciones de Asignaturas</h3>
                 </div>
                 <div id="div2InicialSeccionDatos">
                     <input type="image" src="Imagenes/buscar.png" class="lupaBuscarRegistro">
-                    <input type="text" class="inputCampoBuscar " placeholder="Buscar / Filtrar Caracteristica">
+                    <input type="text" class="inputCampoBuscar" placeholder="Buscar / Filtrar Caracteristica">
                     
                 </div>
                 
@@ -116,74 +116,87 @@
                     </div>
                     <div class="campoNombreAdicionar">
                         <br>
-                        <label class="labelNombreTitulo">Nombre</label>
+                        <label class="labelNombreTitulo">Asignatura</label>
                         <br>
-                        <input type="text" class="inputNombre">
+                        <input type="text" class="inputAsignatura">
                     </div>
                 </div>
                 <div class="campoSemestreAdicionar">
                     <br>
-                    <label class="labelSemestreTitulo">Semestre</label>
+                    <label class="labelSemestreTitulo">Docente</label>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+                    <label class="labelSemestreTitulo">Grupo</label>
                     <br>
-                    <input type="text" class="inputSemestre">
-                    <input type="submit" class="buttonIngresarAsignaturas" value="Ingresar">
+                    <input type="text" class="inputDocente">
+                    &nbsp &nbsp
+                    <input type="text" class="inputGrupo"  >
+                    <input type="submit" class="buttonIngresarAsignacion" value="Ingresar">
                 </div>
                                 
             </div>
 
             <div class="divInfoCompletaAsignaturas">
-                <h3 class="h3AsignaturasAdicionar">Asignaturas</h3>
+                <h3 class="h3AsignaturasAdicionar"> Asignación de Asignaturas</h3>
 
                <table>
                 <tr>
                     
                     <th> Codigo</th>
-                    <th> Nombre</th>
-                    <th> Semestre</th>
+                    <th> Asignatura</th>
+                    <th> Docente</th>
+                    <th> Grupo</th>
                     <th> Editar</th>
                     <th> Eliminar</th>
                        
                 </tr>
                      
                 <tr>
-                    <td> <textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea> </td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td> 
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
                     <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
                     <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
                 </tr>
                 <tr>
-                    <td> <textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td> 
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
                     <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
                     <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
                 </tr>
                 <tr>
-                    <td> <textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td> 
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td>  
                     <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
                     <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
                 </tr>
                 <tr>
-                    <td> <textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td> 
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
                     <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
                     <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
                 </tr>
-                <html>
-                    <td> <textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td> 
-                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
-                    <html class="editarEliminar"><html type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></html>
-                </html>
                 <tr>
-                    <td> <textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td>
-                    <td><textarea class="textAreaAsignaturas"></textarea></td> 
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td>  
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td>  
                     <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
                     <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
                 </tr>

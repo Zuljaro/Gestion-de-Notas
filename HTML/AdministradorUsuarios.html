@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stilosUsuarios.css">
+    
+    <link rel="icon" type="image/x-icon" href="Imagenes/agregar.jpg">
+    <title>Gestión De Usuarios</title>
+</head>
+<body>
+
+    <div id="generalInicial" class="generalInicial">
+        
+        <div>
+            <img src="Imagenes/logo2.png" class="imagenLogo2"> <label class="labelImagen">Virtual Univalle</label>
+            </img>   
+        </div>
+
+        <div id="presentacion">
+            <br>
+             <label class="contenidogestionUsuarios">Gestión de Usuarios</label>
+        </div>
+
+        <div id="presentacion">
+            <br>
+            <img src="Imagenes/descarga.png" class="imagenDescargas">
+            <button type="submit" class="contenidoDescargarUsuarios">Descargar Usuarios </button>
+        </div>
+            
+    </div>
+
+    <div id="contenidoIngreso">
+        <div id="menuContenido">
+
+            <div id="encabezadoContenidoIngreso">
+                <div id="encabezado1ContenidoIngreso">
+                    <img src="Imagenes/usuario.jpg" class="imagenUsuarioMenu">
+                </div>
+                <div id="encabezado2ContenidoIngreso">
+                    <br>
+                    <label for="imagenUsuarioMenu" class="labelUsuarioPerfil">Usuario: </label>
+                    <output class="outputUsuario">zulma1921</output>
+                    <br>
+                    <label for="imagenUsuarioMenu" class="labelUsuarioPerfil">Perfil: Administrador </label>
+                    
+                </div>
+                
+                
+            </div>
+            <div class="divContenidoNombres">
+                
+            <br>
+            <br>
+            <a class="nombreMenu" href="AdministradorUsuarios.html">Usuarios</a>
+            <br>
+            <br>
+            <br>
+            <a class="nombreMenu" href="GestionDePermisos.html">Permisos</a>
+            <br>
+            <br>
+            <br>
+            <a class="nombreMenu" href="CrearAsignaturas.html">Asignaturas</a>
+            <br>
+            <br>
+            <br>
+            <a class="nombreMenu" href="AsignarAsignaturas.html">Asignaciones</a>
+            <br>
+            <br>
+            <br>
+            <a class="nombreMenu" href="www.eltiempo.com.co">Configuración</a>
+            <br>
+            <br>
+            <br>
+            <br><br><br>
+            <a class="nombreMenu" href="inicioSesion.html">Cerrar Sesión</a>
+            </div>
+
+            
+
+        </div>
+
+        <div id="menuIngresoDatos">
+
+            <div id="divIncialSeccionDatos">
+
+                <div id="div1InicialSeccionDatos">
+                    <h3 class="h3Administrador" >Administrador de usuarios</h3>
+                </div>
+                <div id="div2InicialSeccionDatos">
+                    <input type="image" src="Imagenes/buscar.png" class="lupaBuscarRegistro">
+                    <input type="text" class="inputCampoBuscar " placeholder="Buscar / Filtrar Caracteristica">
+                    
+                </div>
+                
+            </div>
+
+            <div class="divAdicionarAsignatura">
+                    <div class="div1AdicionarAsignatura">
+                        <input type="image" src="Imagenes/agregar.jpg" class="imgAdicionarAsignatura">
+                    </div>
+                    <div class="div2AdicionarAsignatura">
+                        <h4 class="h4AdicionarUsuario">Adicionar Usuario</h4>
+                    </div>
+                
+            </div>
+
+            <div class="camposAdicionarAsignaturas">
+
+                <div id="camposIngresoUsuarios1">
+                    <br>
+                    <label class="labelCodigoTitulo">Codigo</label>
+                    <br>
+                    <input type="text" class="inputCodigo">
+                </div>
+                <div id="camposIngresoUsuarios2">
+                        <br>
+                        <label class="labelNombreTitulo">Nombre</label>
+                        <br>
+                        <input type="text" class="inputNombre">
+                </div>
+                <div id="camposIngresoUsuarios3">
+                    <br>
+                    <label class="labelNombreTitulo">E-mail</label>
+                    <br>
+                    <input type="text" class="inputCorreo">
+                </div>
+                <div id="camposIngresoUsuarios4">
+                    <br>
+                    <label class="labelNombreTitulo">Telefono</label>
+                    <br>
+                    <input type="text" class="inputTelefono">
+                </div >
+                <div id="camposIngresoUsuarios5">
+                    <br>
+                    <label class="labelNombreTitulo">Tipo Usuario</label>
+                    <br>
+                    <input type="text" class="inputTipoUsuario">
+                </div>  
+                <div id="camposIngresoUsuarios6">
+                    <br>
+                    <label class="labelNombreTitulo">Estado</label>
+                    <br>
+                    <input type="text" class="inputEstado">
+                </div> 
+                <div id="camposIngresoUsuarios7">
+                    <br>
+                    <label class="labelNombreTitulo">Fecha Vinc.</label>
+                    <br>
+                    <input type="text" class="inputFecha">
+                </div>   
+                <div id="camposIngresoUsuarios8">
+                    <br>
+                    
+                    <br>
+                    <input type="button" class="buttonIngresarUsuario" value="Ingresar">
+                </div>         
+            </div>
+
+            <div class="divInfoCompletaAsignaturas">
+
+               <table>
+                <tr>
+                    
+                    <th class="tdTextAreaUsuario"> Codigo</th>
+                    <th> Nombre</th>
+                    <th> E- mail</th>
+                    <th> Telefono</th>
+                    <th> Tipo Usuario</th>
+                    <th> Estado</th>
+                    <th> Fec. Vinculación</th>
+                    <th> Editar</th>
+                    <th> Eliminar</th>
+                       
+                </tr>
+                     
+                <tr>
+                    <td class="tdTextAreaUsuario"><textarea class="textAreaAsignaturas" id="textAreaAsignaturas1"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td>                     
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas3"></textarea></td> 
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td class="tdTextAreaUsuario"><textarea class="textAreaAsignaturas" id="textAreaAsignaturas1"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td>                     
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas3"></textarea></td>   
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td class="tdTextAreaUsuario"><textarea class="textAreaAsignaturas" id="textAreaAsignaturas1"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td>                     
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas3"></textarea></td>  
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td class="tdTextAreaUsuario"><textarea class="textAreaAsignaturas" id="textAreaAsignaturas1"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td>                     
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas3"></textarea></td>  
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td class="tdTextAreaUsuario"><textarea class="textAreaAsignaturas" id="textAreaAsignaturas1"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td>                     
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas3"></textarea></td> 
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td class="tdTextAreaUsuario"><textarea class="textAreaAsignaturas" id="textAreaAsignaturas1"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td>                     
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas3"></textarea></td>  
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td class="tdTextAreaUsuario"><textarea class="textAreaAsignaturas" id="textAreaAsignaturas1"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td>
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas4"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td>                     
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas2"></textarea></td> 
+                    <td><textarea class="textAreaAsignaturas" id="textAreaAsignaturas3"></textarea></td>  
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+               </table>
+            </div>
+            <div class="divGuardarCancelar">
+                <button class="buttonGuardar" >Guardar</button>
+                <button class="buttonCancelar">Cancelar</button>
+            </div>
+
+    </div>
+    <img src="Imagenes/logo.jpg" class="logoFinalAsignaturas">
+    
+
+    
+</img>
+</html>

@@ -27,13 +27,13 @@ div#presentacion{
     font-weight:bold;
     font-size: 21px;
 }
-.contenidogestionAsignatura{
+.contenidogestionPermisos{
     margin-top: 100px;
     font-weight:bold;
     font-size: 30px;
     
 }
-.contenidoDescargarAsignatura{
+.contenidoDescargarCaracteristicas{
     
     
     border: 3px solid ;
@@ -65,14 +65,14 @@ div#menuContenido{
     float: left;
     width: 20%;
     height: 700px;
-    background-color: rgb(179, 176, 176);
+    background-color:rgb(179, 176, 176);
     border-radius: 0px 0px 50px 0px;
 }
 div#menuIngresoDatos{
     float: right;
     width: 79.9%;
     height: 700px;
-    background-color: rgb(179, 176, 176);
+    background-color:rgb(179, 176, 176);
     border-radius: 0px 0px 0px 50px;
 }
 
@@ -132,7 +132,7 @@ div#div2InicialSeccionDatos{
     width: 30%;
     height: 100%;
 }
-.h3Asignaturas{
+.h3Administrador{
     margin-top: 20px;
     margin-left: 20px;
 }
@@ -144,9 +144,10 @@ div#div2InicialSeccionDatos{
     width: 265px;
     height: 25px;
     margin-bottom: 10px;
+
 }
 
-.divAdicionarAsignatura{
+.divAdicionarCaracteristicas{
     height: 50px;
     background-color: rgb(250, 250, 250);
 }
@@ -169,23 +170,26 @@ div#div2InicialSeccionDatos{
     height: 100%;
 }
 
-.h4AdicionarAsignatura{
+.h4AdicionarCaracteristicas{
     margin-top: 12px;
     font-size: 20px;
 }
-.camposAdicionarAsignaturas{
+.camposAdicionarCaracteristicas{
     height: 80px;
+    display: grid;
+    grid-template-columns: 120px 350px 200px 100px;
 }
-
-.campoCodigoNombreAdicionar{
-    float: left;
-    width: 40%;
-    height: 100%;
+div#camposIngresoCaracteristica1{
+    margin-left: 2px;
 }
-.campoSemestreAdicionar{
-    float: left;
-    width: 60%;
-    height: 100%;
+div#camposIngresoCaracteristica2{
+    margin-left: 2px;
+}
+div#camposIngresoCaracteristica3{
+    margin-left: 2px;
+}
+div#camposIngresoCaracteristica3{
+    margin-left: 2px;
 }
 .labelSemestreTitulo{
     font-weight: bold;
@@ -209,7 +213,7 @@ div#div2InicialSeccionDatos{
 }
 .labelNombreTitulo{
     font-weight: bold;
-    
+    align-items: center; 
     margin-left: 10px;
 }
 .inputCodigo{
@@ -217,36 +221,38 @@ div#div2InicialSeccionDatos{
     height:  25px;
     margin-left: 10px;
     border-radius: 8px;
-    background-color: rgb(232, 225, 225);
-}
-.inputNombre{
-    border: 2px transparent;
-    height:  25px;
-    margin-left: 10px;
-    border-radius: 8px;
-    background-color: rgb(232, 225, 225);
-}
-.inputSemestre{
-    border: 2px transparent;
-    height:  25px;
-    margin-left: 10px;
-    border-radius: 8px;
-    background-color: rgb(232, 225, 225);
-}
-.buttonIngresarAsignaturas{
     width: 100px;
+    background-color: rgb(232, 225, 225);
+}
+.inputCaracteristica{
+    border: 2px transparent;
+    height:  25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    width: 320px;
+    background-color: rgb(232, 225, 225);
+}
+.inputPermisos{
+    border: 2px transparent;
+    height:  25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    background-color: rgb(232, 225, 225);
+}
+
+.inputIngresarCaracteristica{
+    width: 80px;
     height: 25px;
     border-radius: 5px 5px 5px 5px;
     font-weight: bold;
     font-size: 15px;
     margin-left: 10px;
-    background-color: rgb(232, 225, 225);
 }
 
 .divInfoCompletaAsignaturas{
     height: 460px;
-    width: 802px;
-    margin-left: 100px;
+    width: 1012px;
+    margin-left: 0px;
     background-color: rgb(179, 176, 176);
 }
 
@@ -268,10 +274,10 @@ div#div2InicialSeccionDatos{
     margin-left: 10px;
 }
 th{
-    font-size: 20px;
+    font-size: 15px;
 }
 table{
-    width: 800px;
+    width: 1010px;
     border: 2px solid;
 }
 td{
@@ -280,14 +286,16 @@ td{
 
 }
 .botonEliminar{
-    width: 40px;
+    width: 30px;
+    height: 30px;
     
 }
 .editarEliminar{
     border: 0px;
 }
 .botonEditar{
-    width: 60px;
+    width: 40px;
+    height: 40px;
 }
 
 .divGuardarCancelar{
@@ -302,6 +310,27 @@ td{
     font-weight: bold;
     font-size: 15px;
 }
+.textAreaAsignaturas{
+    width: 100px;
+}
+textarea#textAreaAsignaturas1{
+    width: 50px;
+    text-align: center;
+    height: 25px;
+}
+textarea#textAreaAsignaturas5{
+    width: 350px;
+    text-align: center;
+    height: 25px;
+    
+}
+
+.checkboxAsignarPermiso{
+    width: 18px;
+    height: 18px;   
+}
+
+
 .buttonCancelar{
     margin-top: 10px;
     margin-left: 20px;
@@ -316,10 +345,13 @@ td{
     margin-top: 15px;
     height: 40px;
 }
-.textAreaAsignaturas{
-    
+.checkboxAsignarPermiso{
     background-color: rgb(232, 225, 225);
     font-weight:bold;
     text-align: center;
 }
-
+.textAreaAsignaturas{
+    background-color: rgb(232, 225, 225);
+    font-weight:bold;
+    text-align: center;
+}
