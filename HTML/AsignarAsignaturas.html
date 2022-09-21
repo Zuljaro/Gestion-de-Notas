@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/stilosAsignarAsignatura.css">
+    
+    <link rel="icon" type="image/x-icon" href="Imagenes/agregar.jpg">
+    <title>Asignar asignaturas</title>
+</head>
+<body>
+
+    <div id="generalInicial" class="generalInicial">
+        
+        <div>
+            <img src="Imagenes/logo2.png" class="imagenLogo2"> <label class="labelImagen">Virtual Univalle</label>
+            </img>   
+        </div>
+
+        <div id="presentacion">
+            <br>
+             <label class="contenidogestionAsignatura">Asignaciones de Asignaturas</label>
+        </div>
+
+        <div id="presentacion">
+            <br>
+            <img src="Imagenes/descarga.png" class="imagenDescargas">
+            <button type="submit" class="contenidoDescargarAsignatura">Descargar Asignaciones </button>
+        </div>
+            
+    </div>
+
+    <div id="contenidoIngreso" class="contenidoIngreso">
+        <div id="menuContenido">
+
+            <div id="encabezadoContenidoIngreso">
+                <div id="encabezado1ContenidoIngreso">
+                    <img src="Imagenes/usuario.jpg" class="imagenUsuarioMenu">
+                </div>
+                <div id="encabezado2ContenidoIngreso">
+                    <br>
+                    <label for="imagenUsuarioMenu" class="labelUsuarioPerfil">Usuario: </label>
+                    <output class="outputUsuario">zulma1921</output>
+                    <br>
+                    <label for="imagenUsuarioMenu" class="labelUsuarioPerfil">Perfil: Administrador </label>
+                    
+                </div>
+                
+                
+            </div>
+            <div class="divContenidoNombres">
+                
+            <br>
+            <br>
+            <a class="nombreMenu" href="AdministradorUsuarios.html">Usuarios</a>
+            <br>
+            <br>
+            <br>
+            <a class="nombreMenu" href="GestionDePermisos.html">Permisos</a>
+            <br>
+            <br>
+            <br>
+            <a class="nombreMenu" href="CrearAsignaturas.html">Asignaturas</a>
+            <br>
+            <br>
+            <br>
+            <a class="nombreMenu" href="AsignarAsignaturas.html">Asignaciones</a>
+            <br>
+            <br>
+            <br>
+            <a class="nombreMenu" href="www.eltiempo.com.co">Configuración</a>
+            <br>
+            <br>
+            <br>
+            <br><br><br>
+            <a class="nombreMenu" href="inicioSesion.html">Cerrar Sesión</a>
+            </div>
+
+            
+
+        </div>
+
+        <div id="menuIngresoDatos">
+
+            <div id="divIncialSeccionDatos">
+
+                <div id="div1InicialSeccionDatos">
+                    <h3 class="h3Asignaturas" >Asignaciones de Asignaturas</h3>
+                </div>
+                <div id="div2InicialSeccionDatos">
+                    <input type="image" src="Imagenes/buscar.png" class="lupaBuscarRegistro">
+                    <input type="text" class="inputCampoBuscar" placeholder="Buscar / Filtrar Caracteristica">
+                    
+                </div>
+                
+            </div>
+
+            <div class="divAdicionarAsignatura">
+                    <div class="div1AdicionarAsignatura">
+                        <input type="image" src="Imagenes/agregar.jpg" class="imgAdicionarAsignatura">
+                    </div>
+                    <div class="div2AdicionarAsignatura">
+                        <h4 class="h4AdicionarAsignatura">Adicionar Asignatura</h4>
+                    </div>
+                
+            </div>
+
+            <div class="camposAdicionarAsignaturas">
+                <div class="campoCodigoNombreAdicionar">
+                    <div class="campoCodigoAdicionar">
+                        <br>
+                        <label class="labelCodigoTitulo">Codigo</label>
+                        <br>
+                        <input type="text" class="inputCodigo">
+                    </div>
+                    <div class="campoNombreAdicionar">
+                        <br>
+                        <label class="labelNombreTitulo">Asignatura</label>
+                        <br>
+                        <input type="text" class="inputAsignatura">
+                    </div>
+                </div>
+                <div class="campoSemestreAdicionar">
+                    <br>
+                    <label class="labelSemestreTitulo">Docente</label>
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+                    &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+                    <label class="labelSemestreTitulo">Grupo</label>
+                    <br>
+                    <input type="text" class="inputDocente">
+                    &nbsp &nbsp
+                    <input type="text" class="inputGrupo"  >
+                    <input type="submit" class="buttonIngresarAsignacion" value="Ingresar">
+                </div>
+                                
+            </div>
+
+            <div class="divInfoCompletaAsignaturas">
+                <h3 class="h3AsignaturasAdicionar"> Asignación de Asignaturas</h3>
+
+               <table>
+                <tr>
+                    
+                    <th> Codigo</th>
+                    <th> Asignatura</th>
+                    <th> Docente</th>
+                    <th> Grupo</th>
+                    <th> Editar</th>
+                    <th> Eliminar</th>
+                       
+                </tr>
+                     
+                <tr>
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td>  
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td>  
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+                <tr>
+                    <td> <textarea class="textAreaAsignacion"></textarea></td>
+                    <td><textarea class="textAreaAsignacion"></textarea> </td>
+                    <td><textarea class="textAreaAsignacion"></textarea></td> 
+                    <td><textarea class="textAreaAsignacion"></textarea></td>  
+                    <td class="editarEliminar"><input type="image" src="Imagenes/editar.jpg"class="botonEditar"></td>
+                    <td class="editarEliminar"><input type="image" src="Imagenes/boton-eliminar.png"class="botonEliminar"></td>
+                </tr>
+               </table>
+            </div>
+            <div class="divGuardarCancelar">
+                <button class="buttonGuardar" >Guardar</button>
+                <button class="buttonCancelar">Cancelar</button>
+            </div>
+
+    </div>
+    <img src="Imagenes/logo.jpg" class="logoFinalAsignaturas">
+    
+
+    
+</img>
+</html>

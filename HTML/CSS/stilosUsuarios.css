@@ -1,0 +1,399 @@
+*{
+   margin: 0px;
+   padding: 0px; 
+}
+
+div#generalInicial{
+    margin:5px ;
+    height: 80px;
+    background-color: rgb(250, 250, 250);
+    display: grid;
+    grid-template-columns: auto auto auto;
+     padding: 10px;
+}
+
+
+.imagenLogo2{
+
+    width: auto;
+    height: 85px;
+}
+div#presentacion{
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.labelImagen{
+    font-weight:bold;
+    font-size: 21px;
+}
+.contenidogestionUsuarios{
+    margin-top: 100px;
+    font-weight:bold;
+    font-size: 30px;
+    
+}
+.contenidoDescargarUsuarios{
+    
+    
+    border: 3px solid ;
+    border-radius: 10px 10px;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    background-color: rgb(130, 128, 128);
+    border-color: rgb(130, 128, 128);
+    color: black;
+    font-size: 18px;                            /*Tamaño del texto del boton*/
+    font-weight:bold;
+    float: right;  
+}
+.imagenDescargas{
+    margin-left: 5px;
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+div#contenidoIngreso{
+    height: 700px;
+    background-color:rgb(250, 250, 250);
+    border: 4px solid;
+    border-color: rgb(179, 176, 176);
+}
+
+div#menuContenido{
+    float: left;
+    width: 20%;
+    height: 700px;
+    background-color:rgb(179, 176, 176);
+    border-radius: 0px 0px 50px 0px;
+}
+div#menuIngresoDatos{
+    float: right;
+    width: 79.9%;
+    height: 700px;
+    background-color:rgb(179, 176, 176);
+    border-radius: 0px 0px 0px 50px;
+}
+
+div#encabezadoContenidoIngreso{
+    height: 100px;
+    background-color: rgb(250, 250, 250);
+}
+div#encabezado1ContenidoIngreso{
+    float: left;
+    width: 30%;
+    height: 100%;
+}
+div#encabezado2ContenidoIngreso{
+    float: right;
+    width: 70%;
+    height: 100%;
+}
+.imagenUsuarioMenu{
+    width: 100px;
+}
+
+.labelUsuarioPerfil{
+    font-weight:bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.outputUsuario{
+    font-weight: bold;
+    font-size: 20px;
+}
+.nombreMenu{
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+        font-size: 24px;
+        margin-left: 20px;
+}
+.divContenidoNombres{
+    height: 400px;
+    margin-left: 0px;
+    margin-top: 60px;
+    text-align: center;
+}
+div#divIncialSeccionDatos{
+
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+}
+div#div1InicialSeccionDatos{
+    float: left;
+    width: 70%;
+    height: 100%;
+}
+div#div2InicialSeccionDatos{
+
+    float: right;
+    width: 30%;
+    height: 100%;
+}
+.h3Administrador{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.lupaBuscarRegistro{
+    margin-top: 10px;
+    width: 25px;
+}
+.inputCampoBuscar{
+    width: 265px;
+    height: 25px;
+    margin-bottom: 10px;
+
+}
+
+.divAdicionarAsignatura{
+    height: 50px;
+    background-color: rgb(250, 250, 250);
+}
+
+.imgAdicionarAsignatura{
+    width: 50px;
+    margin-left: 25px;
+}
+
+.div1AdicionarAsignatura{
+
+    float: left;
+    width: 5%;
+    height: 100%;
+}
+.div2AdicionarAsignatura{
+
+    float: right;
+    width: 93%;
+    height: 100%;
+}
+
+.h4AdicionarUsuario{
+    margin-top: 12px;
+    font-size: 20px;
+}
+.camposAdicionarAsignaturas{
+    height: 80px;
+    display: grid;
+    grid-template-columns: 65px 185px 185px 145px 105px 85px 120px 90px;
+}
+div#camposIngresoUsuarios1{
+    margin-left: 2px;
+}
+div#camposIngresoUsuarios2{
+    margin-left: 2px;
+    text-align: center;
+}
+div#camposIngresoUsuarios3{
+    margin-left: 2px;
+    text-align: center;
+}
+div#camposIngresoUsuarios4{
+    margin-left: 2px;
+    text-align: center;
+}
+div#camposIngresoUsuarios6{
+    margin-left: 2px;
+    text-align: center;
+}
+div#camposIngresoUsuarios7{
+    margin-left: 2px;
+    text-align: center;
+}
+
+
+.labelSemestreTitulo{
+    font-weight: bold;
+    
+    margin-left: 10px;
+}
+.campoCodigoAdicionar{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.campoNombreAdicionar{
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+.labelCodigoTitulo{
+    font-weight: bold;
+    
+    margin-left: 10px;
+}
+.labelNombreTitulo{
+    font-weight: bold;
+    align-items: center; 
+    margin-left: 10px;
+}
+.inputCodigo{
+    border: 2px transparent;
+    height:  25px;
+    margin-left: 10px;
+    border-radius: 8px;
+    width: 50px;
+    background-color: rgb(232, 225, 225);
+}
+.inputNombre{
+    border: 2px transparent;
+    height:  25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    background-color: rgb(232, 225, 225);
+}
+.inputCorreo{
+    border: 2px transparent;
+    height:  25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    background-color: rgb(232, 225, 225);
+}
+.inputTelefono{
+    border: 2px transparent;
+    height:  25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    width: 130px;
+    background-color: rgb(232, 225, 225);
+}
+.inputTipoUsuario{
+    border: 2px transparent;
+    height:  25px;
+    margin-left: 9px;
+    border-radius: 8px;
+    width: 90px;
+    background-color: rgb(232, 225, 225);
+}
+.inputEstado{
+    border: 2px transparent;
+    height:  25px;
+    margin-left: 5px;
+    border-radius: 8px;
+    width: 70px;
+    background-color: rgb(232, 225, 225);
+}
+.inputFecha{
+    border: 2px transparent;
+    height:  25px;
+    margin-left: 10px;
+    border-radius: 8px;
+    width: 100px;
+    background-color: rgb(232, 225, 225);
+}
+.buttonIngresarUsuario{
+    width: 80px;
+    height: 25px;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.divInfoCompletaAsignaturas{
+    height: 460px;
+    width: 1012px;
+    margin-left: 0px;
+    background-color:rgb(179, 176, 176);
+}
+
+.divIngresarInfoAsignaturas{
+    float: left;
+    width: 65%;
+    height: 100%;
+    
+}
+.divEditarEliminarAsignaturas{
+    float: left;
+    width: 35%;
+    height: 100%;
+    background-color: rgb(35, 38, 38);
+}
+.h3AsignaturasAdicionar{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+th{
+    font-size: 15px;
+}
+table{
+    width: 1010px;
+    border: 2px solid;
+}
+td{
+    
+    text-align:  center;
+
+}
+.botonEliminar{
+    width: 40px;
+    
+}
+.editarEliminar{
+    border: 0px;
+}
+.botonEditar{
+    width: 60px;
+    height: 54px;
+}
+
+.divGuardarCancelar{
+    height: 100px;
+}
+.buttonGuardar{
+    margin-top: 0px;
+    margin-left: 350px;
+    border-radius: 10px 10px 10px 10px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.textAreaAsignaturas{
+    width: 100px;
+}
+textarea#textAreaAsignaturas1{
+    width: 50px;
+    text-align: center;
+    height: 25px;
+}
+textarea#textAreaAsignaturas2{
+    width: 100px;
+    text-align: center;
+    height: 25px;
+    
+}
+textarea#textAreaAsignaturas3{
+    width: 90px;
+    text-align: center;
+    height: 25px;
+    
+}
+textarea#textAreaAsignaturas4{
+    width: 130px;
+    text-align: center;
+    height: 25px;
+    
+}
+
+.buttonCancelar{
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px 10px 10px 10px;
+    width: 100px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.logoFinalAsignaturas{
+    float: right;
+    margin-top: 15px;
+    height: 40px;
+}
+.textAreaAsignaturas{
+    background-color: rgb(232, 225, 225);
+    font-weight:bold;
+    text-align: center;
+}
