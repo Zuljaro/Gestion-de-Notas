@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/stilosAsignatura.css">
+    <link rel="stylesheet" href="CSS/stilosConfiguracion.css">
     
-    <link rel="icon" type="image/x-icon" href="Imagenes/agregar.jpg">
+    <link rel="icon" type="image/x-icon" href="Imagenes/perfilusuario.png">
     <title>Configuracion</title>
 </head>
 <body>
@@ -14,7 +14,7 @@
     <div id="generalInicial" class="generalInicial">
         
         <div>
-            <img src="/Imagenes/logo2.png" class="imagenLogo2"> <label class="labelImagen">Virtual Univalle</label>
+            <img src="Imagenes/logo2.png" class="imagenLogo2"> <label class="labelImagen">Virtual Univalle</label>
             </img>   
         </div>
 
@@ -32,14 +32,14 @@
 
             <div id="encabezadoContenidoIngreso">
                 <div id="encabezado1ContenidoIngreso">
-                    <img src="/Imagenes/usuario.jpg" class="imagenUsuarioMenu">
+                    <img src="Imagenes/usuario.jpg" class="imagenUsuarioMenu">
                 </div>
                 <div id="encabezado2ContenidoIngreso">
                     <br>
                     <label for="imagenUsuarioMenu" class="labelUsuarioPerfil">Usuario: </label>
-                    <output class="outputUsuario">estudiante_1</output>
+                    <output class="outputUsuario">admin1</output>
                     <br>
-                    <label for="imagenUsuarioMenu" class="labelUsuarioPerfil">Perfil: Estudiante </label>
+                    <label for="imagenUsuarioMenu" class="labelUsuarioPerfil">Perfil: Administrador </label>
                     
                 </div>
                 
@@ -49,25 +49,30 @@
             <br>    
             <br>
             <br>
-            <a class="nombreMenu" href="www.eltiempo.com.co">Mis Cursos</a>
+            <a class="nombreMenu" href="AdministradorUsuarios.html">Usuarios</a>
             <br>
             <br>
             <br>
-            <a class="nombreMenu" href="www.eltiempo.com.co">Actividades</a>
+            <a class="nombreMenu" href="GestionDePermisos.html">Permisos</a>
             <br>
             <br>
             <br>
-            <a class="nombreMenu" href="www.eltiempo.com.co">Calificaciones</a>
+            <a class="nombreMenu" href="CrearAsignaturas.html">Asignaturas</a>
             <br>
             <br>
             <br>
-            <a class="nombreMenu" href="www.eltiempo.com.co">Configuración</a>
+            <a class="nombreMenu" href="AsignarAsignaturas.html">Asignaciones</a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <a class="nombreMenu" href="Configuración.html">Configuración</a>
             <br>
             <br>
             <br>
             <br>
             <br><br><br>
-            <a class="nombreMenu" href="www.eltiempo.com.co">Cerrar Sesión</a>
+            <a class="nombreMenu" href="inicioSesion.html">Cerrar Sesión</a>
             </div>
 
             
@@ -75,76 +80,55 @@
         </div>
 
         <div id="menuIngresoDatos">
-            <!--
-            <div id="divIncialSeccionDatos">
+            
 
-                <div id="div1InicialSeccionDatos">
-                    
-                </div>
-                
-                
-            </div>   -->
-
-            <div class="divAdicionarAsignatura">
+            <div class="divAdicionarUsuario">
                    
-                    <div class="div2AdicionarAsignatura">
-                        <input type="image" src="/Imagenes/perfilusuario.png" class="lupaBuscarRegistro" >
-                    </div>
+                <input type="image" src="Imagenes/perfilusuario.png" class="insertarImagen" >
+                <input type="image" src="Imagenes/editar.jpg" class="editarImagen" >
+                <br>
+                <label class="contenidoTextoUsuario">Nombre Usuario</label>
                 
             </div>
             
             <div class="divInfoCompletaAsignaturas">
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <br>
-                <label> Código</label >
-                <br>
-                <br>
-                <label> Nombre de usuario</label>
-                <br>
-                <br>
-                <label> Email</label>
-                <br>
-                <br>
-                <label> Contraseña</label>
-
-               <table>
+                <table class="informacionTabla">
                 <tr>
-                    
                     <th> Configuraciónn Básica</th>
                     <th> Configuración del Sistemas</th>
-                    
-                       
                 </tr>
                      
                 <tr>
-                    <td> 01</td>
-                    <td>Programación</td>
+                    <td class="textColumna">Código   </td>
+                    
+                    <td class="textColumna">Idioma</td>
+                </tr>
+                
+                <tr>
+                    <td class="textColumna">Nombre Usuario </td>
+                    <td class="textColumna">Ajuste de Privacidad</td>
+                </t<>
                     
                     
+                    
+                <tr>
+                    <td class="textColumna">Email</td>
                 </tr>
                 <tr>
-                    <td> 02</td>
-                    <td>Programación</td>
-                    
-                     </tr>
-                <tr>
-                    <td> 03</td>
-                    <td>Habilidades Blandas</td>
+                    <td class="textColumna">Contraseña</td>
+                  
                     
                     
                 </tr>
                </table>
             </div>
-            <div class="divGuardarCancelar">
-                <button class="buttonGuardar" >Volver a Cursos</button>
+            <div class="divVolverUsuarios">
+                <button type="submit"  class="buttonVolver"  >Volver a Usuarios</button >
+                <a class="nombreMenu" href="AdministradorUsuarios.html"></a>
                 
             </div>
 
-                
+               
             
         
 
